@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
+namespace WishList.Controllers
+{ 
 public class HomeController : Controller
 {
     public IActionResult Index()
@@ -11,4 +13,5 @@ public class HomeController : Controller
     {
         return View("Error");
     }
+}
 }
