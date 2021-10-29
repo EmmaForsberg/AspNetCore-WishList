@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
+namespace WishList
+{ 
 
 public class ApplicationDbContext : DbContext
 {
@@ -11,4 +13,5 @@ public class ApplicationDbContext : DbContext
 
 
 
+}
 }
